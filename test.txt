@@ -1,0 +1,5 @@
+mysql> use Chinook
+Database changed
+mysql> SELECT Title, Name FROm Album JOIN Artist ON Album.ArtistId = Artist.ArtistId LIMIT 5
+    -> Terminal close -- exit!
+Aborted
